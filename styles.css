@@ -1,5 +1,6 @@
 * {
   margin: 0;
+  padding: 0;
 }
 
 .banner {
@@ -50,22 +51,48 @@
 
 .calc-container .calculator .screen {
   width: 90%;
-  height: 20%;
+  height: 15%;
   border: white 1px solid;
   background-color: white;
   margin-top: 10px;
+  border: none;
 }
 
 .calc-container .calculator .operations-buttons-section {
   width: 90%;
-  height: 20%;
+  height: 15%;
   border: white 1px solid;
   background-color: gray;
+  border: none;
 }
 
-.calc-container .calculator .number-buttons {
+.calc-container .calculator .number-sum-buttons {
   width: 90%;
-  height: 20%;
+  height: 55%;
   background-color: bisque;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.calc-container .calculator .numbers-buttons {
+  border: 1px solid black;
+  width: 65%;
+  height: 95%;
+}
+
+.calc-container .calculator .sum-button {
+  border: 1px solid black;
+  width: 30%;
+  height: 95%;
 }
 /*# sourceMappingURL=styles.css.map */
