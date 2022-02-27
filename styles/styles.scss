@@ -49,6 +49,11 @@ body{
                 background-color:gray;
                 border: none;
                 // margin-top: 10px;
+
+            .buttons{
+                list-style-type: none;
+                flex-direction: row;
+            }
     
             }
             .number-sum-buttons{

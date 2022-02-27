@@ -72,6 +72,14 @@ body .calc-container .calculator .operations-buttons-section {
   border: none;
 }
 
+body .calc-container .calculator .operations-buttons-section .buttons {
+  list-style-type: none;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
 body .calc-container .calculator .number-sum-buttons {
   width: 90%;
   height: 55%;
