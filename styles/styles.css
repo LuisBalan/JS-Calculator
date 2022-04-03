@@ -96,7 +96,8 @@ h2{
 .input, .output{
   color: var(--blue-active);
   margin: 2px;
-  font-size: xx-large;
+  font-size: xxx-large;
+  font-family: digital-7-mono-italic;
 }
 
 .buttons-area{
