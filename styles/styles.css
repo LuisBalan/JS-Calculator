@@ -14,7 +14,7 @@
 
 main{
   width: 100%;
-  height: 960px;
+ height: 960px;
   background-color: var(--blue-gray);
   display: flex;
 }
@@ -29,14 +29,17 @@ main{
   width: 60%;
   margin: 10px 0;
   /* height: 50%; */
-  justify-content: space-around
+  justify-content:space-between;
 }
 
 .screen{
   border: 2px solid var(--pewter);
+  background-color: black;
+  border-radius: 10px;
   width: 80%;
   height: 30%;
   margin: 10px;
+  align-items: center;
 }
 
 .buttons-bar{
@@ -50,7 +53,8 @@ main{
 }
 
 .button{
-  border: 1px solid var(--pewter);
+  border: 1.5px solid var(--pewter);
+  background-color: var(--gunmetal-gray);
   border-radius: 10px;
   width: 45px;
   height: 45px;
@@ -59,5 +63,9 @@ main{
   display: flex;
   align-items: center;
   justify-content: center;
-
+  color:#cbcdcb;
+  font-weight: 1200;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: xx-large;
 }
+
