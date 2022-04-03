@@ -52,11 +52,31 @@ h2{
   border: 2px solid var(--pewter);
   background-color: black;
   border-radius: 10px;
-  width: 70%;
-  height: 20%;
+  width: 90%;
+  height: 30%;
   margin: 10px;
   align-items: center;
+  display: flex;
+  flex-direction: column;
+  
 }
+
+.input-screen, .output-screen{
+  width: 96%;
+  height: 50%;
+  border: 1px solid var(--blue-active);
+  border-radius: 5px;
+  margin: 2px;
+  display: flex;
+  justify-content: flex-end;
+  align-items:flex-end;
+}
+
+.input, .output{
+  color: var(--blue-active);
+  margin: 2px;
+}
+
 
 .buttons-area{
   width: 60%;
