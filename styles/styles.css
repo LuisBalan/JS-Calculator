@@ -26,20 +26,26 @@ main{
 
 .calculator{
   border: 2px solid var(--pewter);
+  border-radius: 5px;
   width: 60%;
   margin: 10px 0;
-  /* height: 50%; */
-  justify-content:space-between;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .screen{
   border: 2px solid var(--pewter);
   background-color: black;
   border-radius: 10px;
-  width: 80%;
-  height: 30%;
+  width: 60%;
+  height: 20%;
   margin: 10px;
   align-items: center;
+}
+
+.buttons-area{
+  width: 60%;
 }
 
 .buttons-bar{
@@ -58,7 +64,7 @@ main{
   border-radius: 10px;
   width: 45px;
   height: 45px;
-  padding: 20px;
+  padding: 35px;
   margin: 1.5px;
   display: flex;
   align-items: center;
@@ -69,3 +75,8 @@ main{
   font-size: xx-large;
 }
 
+#equals-to-button{
+  background-color: var(--honeysuckle);
+  width: 65%;
+
+}
