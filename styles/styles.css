@@ -91,6 +91,7 @@ h2{
   display: flex;
   justify-content: flex-end;
   align-items:flex-end;
+  overflow-x: scroll;
 }
 
 .input, .output{
@@ -98,6 +99,7 @@ h2{
   margin: 2px;
   font-size: xxx-large;
   font-family: digital-7-mono-italic;
+  overflow-x: scroll;
 }
 
 .buttons-area{
