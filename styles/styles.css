@@ -9,25 +9,39 @@
   --blue-gray: #607d86;
   --pewter: #cbcdcb;
   --fondo: #3844d;
+  --blue-active: #7cdffd;
+  --red-active: #ff291e;
 }
 
 
 main{
   width: 100%;
- height: 960px;
-  background-color: var(--blue-gray);
+  height: 960px;
+  background-color: var(--pewter);
   display: flex;
+  justify-content: space-around;
 }
 
 .banner{
   min-height: 50px;
   background: var(--gunmetal-gray);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h2{
+  color: var(--pewter);
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight:900;
 }
 
 .calculator{
-  border: 2px solid var(--pewter);
+  border: 2px solid var(--gunmetal-gray);
+  background-color: var(--blue-gray);
   border-radius: 5px;
-  width: 60%;
+  min-width: 50%;
+  max-height: 60%;
   margin: 10px 0;
   display: flex;
   flex-direction: column;
@@ -38,7 +52,7 @@ main{
   border: 2px solid var(--pewter);
   background-color: black;
   border-radius: 10px;
-  width: 60%;
+  width: 70%;
   height: 20%;
   margin: 10px;
   align-items: center;
@@ -50,12 +64,11 @@ main{
 
 .buttons-bar{
   list-style-type: none;
-  border: 2px solid var(--pewter);
+  /* border: 2px solid var(--pewter); */
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  
 }
 
 .button{
@@ -75,8 +88,19 @@ main{
   font-size: xx-large;
 }
 
+.button:active{
+  background-color: black ;
+  color: var(--blue-active);
+  border: 1.5px solid var(--blue-active);
+}
+
+
 #equals-to-button{
   background-color: var(--honeysuckle);
-  width: 65%;
+  min-width: 95%;
+}
 
+#equals-to-button:active{
+  background-color: var(--red-active);
+  border: 1.5px solid var(--blue-active);
 }
