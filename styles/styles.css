@@ -3,6 +3,27 @@
   margin: 0;
 }
 
+@font-face {
+  font-family: digital-7;
+  src: url(../fonts/digital-7.ttf);
+}
+
+@font-face {
+  font-family: digital-7-italic;
+  src: url(../fonts/digital-7-italic.ttf);
+}
+
+@font-face {
+  font-family: digital-7-mono;
+  src: url(../fonts/digital-7-mono.ttf);
+}
+
+@font-face {
+  font-family: digital-7-mono-italic;
+  src: url(../fonts/digital-7-mono-italic.ttf);
+}
+
+
 :root{
   --gunmetal-gray: #4c5355;
   --honeysuckle: #c44b4f;
@@ -75,8 +96,8 @@ h2{
 .input, .output{
   color: var(--blue-active);
   margin: 2px;
+  font-size: xx-large;
 }
-
 
 .buttons-area{
   width: 60%;
