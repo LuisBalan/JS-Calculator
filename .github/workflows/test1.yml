@@ -9,3 +9,10 @@ jobs:
         steps:
         - name: Hello World!
           run: echo "Hello World!"
+
+    other:
+        runs-on: macos-12
+
+        steps:
+        - name: LS!
+          run: ls -lr
