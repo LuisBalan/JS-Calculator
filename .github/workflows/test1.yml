@@ -4,7 +4,7 @@ on: [push]
 
 jobs:
     hola:
-        runs-on: ubuntu-latest
+        runs-on: ubuntu-latest2
 
         steps:
         - name: Hello World!
